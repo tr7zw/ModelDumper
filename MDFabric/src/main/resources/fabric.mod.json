@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "modeldumper",
+  "version": "${version}",
+
+  "name": "ModelDumper",
+  "description": "Creates .obj files from Minecraft models rendered in-game.",
+  "authors": [
+    "tr7zw"
+  ],
+  "contact": {
+    "homepage": "https://github.com/tr7zw",
+    "sources": "https://github.com/tr7zw/modeldumper"
+  },
+
+  "license": "tr7zw Protective License",
+  "icon": "assets/modeldumper/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "dev.tr7zw.modeldumper.ModelDumperMod"
+    ]
+  },
+  "mixins": [
+    "modeldumper.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "minecraft": "1.19.x",
+    "java": ">=16"
+  }
+}
