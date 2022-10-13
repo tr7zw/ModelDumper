@@ -1,6 +1,6 @@
 # ModelDumper
 
-Adds `dump` hotkeys to the game that dumps the currently rendered models to a file.
+Adds `dump` hotkeys(not bound by default!) to the game that dumps the currently rendered models to a file.
 The output file is a `.obj` file that can be opened in any 3D modelling software and the required textures are also dumped. The model is uv mapped, so the textures should be applied correctly. Important: The model is not rigged, it is just a static model in the current pose of the game.
 Currently works with:
 
