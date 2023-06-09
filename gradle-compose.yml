@@ -1,5 +1,5 @@
-version: '0.0.1'
-source: "https://github.com/tr7zw/ForgeFabricComposeTemplate/tree/1.19.2/"
+version: '0.0.2'
+source: "https://github.com/tr7zw/ModComposeTemplate/tree/1.20"
 replacements:
   group: "dev.tr7zw"
   name: "ModelDumper"
@@ -9,6 +9,10 @@ replacements:
   relocationpackage: "dev.tr7zw.skinlamodeldumperyers"
   dependencies: ""
   licensename: "LICENSE"
+enabledFlags:
+  - autopublish
+  - publishFabric
+  - modrinth
 rootProject:
   template: "."
 subProjects:
